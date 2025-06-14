@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fitness & BMI Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">FitTrack</div>
+    
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <section id="bmi">
+      <h2>BMI Calculator</h2>
+      <div class="bmi-box">
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" placeholder="Enter height in cm" />
+<br>
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" placeholder="Enter weight in kg" />
+
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <p id="result"></p>
+      </div>
+    </section>
+
+    <section id="exercises">
+      <h2>Daily Exercise Plan</h2>
+      <div class="exercise-list">
+        <ul>
+          <li><strong>Monday:</strong> Cardio (30 min) + Stretching</li>
+          <li><strong>Tuesday:</strong> Upper Body Strength</li>
+          <li><strong>Wednesday:</strong> Yoga or Active Rest</li>
+          <li><strong>Thursday:</strong> Lower Body Workout</li>
+          <li><strong>Friday:</strong> HIIT (20 min)</li>
+          <li><strong>Saturday:</strong> Full Body Strength</li>
+          <li><strong>Sunday:</strong> Rest or Light Walk</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p>© 2025 FitTrack. All rights reserved. | Made with 💪 in India</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
